@@ -1,4 +1,5 @@
 require 'pry'
+require 'ESPERANTO_ALPHABET'
 def alphabetize(arr)
  sentences_array.sort_by do |sentence|
     sentence.split("").map do |character|
