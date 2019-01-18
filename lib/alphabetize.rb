@@ -1,6 +1,6 @@
 require 'pry'
 def alphabetize(arr)
- pk = ESPERANTO_ALPHABET 
+ pk = 
   arr.sort do |a, b|
     a <=> b
   end
