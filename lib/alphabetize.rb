@@ -1,9 +1,9 @@
 require 'pry'
 def alphabetize(arr)
- pk = 
-  arr.sort do |a, b|
-    a <=> b
+ sentences_array.sort_by do |sentence|
+    sentence.split("").map do |character|
+      ESPERANTO_ALPHABET.index(character)
+    end
   end
- binding.pry
  
 end
